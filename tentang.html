@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+
+<html class="light" lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="/sc/css/style.css">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary": "#3c2e0e",
+                    "primary-fixed-dim": "#e6bead",
+                    "primary-container": "#5c4033",
+                    "surface-container-high": "#f0e6e0",
+                    "primary": "#432a1e",
+                    "outline-variant": "#d4c3bd",
+                    "on-secondary-container": "#684000",
+                    "surface-container-highest": "#eae1da",
+                    "on-primary-fixed": "#2c160b",
+                    "surface-container-lowest": "#ffffff",
+                    "error": "#ba1a1a",
+                    "primary-fixed": "#ffdbcc",
+                    "error-container": "#ffdad6",
+                    "on-primary-fixed-variant": "#5c4033",
+                    "tertiary-fixed": "#f9dfb1",
+                    "secondary-container": "#fea619",
+                    "inverse-surface": "#342f2b",
+                    "on-tertiary-fixed": "#261a00",
+                    "tertiary-container": "#554422",
+                    "on-surface-variant": "#504440",
+                    "on-error": "#ffffff",
+                    "surface-tint": "#765749",
+                    "secondary-fixed": "#ffddb8",
+                    "on-error-container": "#93000a",
+                    "on-background": "#1f1b17",
+                    "on-secondary": "#ffffff",
+                    "secondary-fixed-dim": "#ffb95f",
+                    "surface": "#fff8f5",
+                    "on-tertiary": "#ffffff",
+                    "on-tertiary-container": "#c9b286",
+                    "on-secondary-fixed": "#2a1700",
+                    "tertiary-fixed-dim": "#dcc497",
+                    "on-secondary-fixed-variant": "#653e00",
+                    "surface-bright": "#fff8f5",
+                    "inverse-on-surface": "#f9efe8",
+                    "background": "#fff8f5",
+                    "surface-container": "#f6ece6",
+                    "on-primary": "#ffffff",
+                    "inverse-primary": "#e6bead",
+                    "on-surface": "#1f1b17",
+                    "on-primary-container": "#d3ac9c",
+                    "outline": "#82746f",
+                    "surface-dim": "#e2d8d2",
+                    "surface-variant": "#eae1da",
+                    "surface-container-low": "#fcf2eb",
+                    "secondary": "#855300",
+                    "on-tertiary-fixed-variant": "#554422"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Newsreader"],
+                    "body": ["Manrope"],
+                    "label": ["Manrope"]
+            }
+          },
+        },
+      }
+    </script>
+</head>
+<body class="bg-surface text-on-surface selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-stone-900/80 backdrop-blur-xl shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center px-12 py-6 max-w-screen-2xl mx-auto">
+<div class="font-['Newsreader'] font-bold text-2xl tracking-tight text-[#432a1e] dark:text-[#f6ece6]">
+                Gerakan Pramuka Racana UPS
+            </div>
+<div class="hidden md:flex items-center space-x-8 font-['Newsreader'] font-medium text-lg">
+<a class="text-[#504440] dark:text-[#d4c3bd] hover:text-[#855300] transition-colors duration-300" href="index.html">Beranda</a>
+<a class="text-[#855300] dark:text-[#fea619] font-semibold transition-colors duration-300" href="tentang.html">Profil</a>
+<a class="text-[#504440] dark:text-[#d4c3bd] hover:text-[#855300] transition-colors duration-300" href="program.html">Kegiatan</a>
+<a class="text-[#504440] dark:text-[#d4c3bd] hover:text-[#855300] transition-colors duration-300" href="#">Galeri</a>
+<a class="text-[#504440] dark:text-[#d4c3bd] hover:text-[#855300] transition-colors duration-300" href="#">Unduhan</a>
+<a class="text-[#504440] dark:text-[#d4c3bd] hover:text-[#855300] transition-colors duration-300" href="#">Kontak</a>
+</div>
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary px-8 py-3 rounded-full font-medium scale-100 active:scale-95 transition-transform">
+                Gabung Sekarang
+            </button>
+</div>
+</nav>
+<main class="pt-32">
+<!-- Hero Section -->
+<section class="px-12 max-w-screen-2xl mx-auto mb-32">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+<div class="md:col-span-7">
+<span class="font-label text-secondary tracking-[0.2em] text-sm font-bold uppercase mb-6 block">TENTANG KAMI</span>
+<h1 class="text-6xl md:text-8xl text-primary font-medium leading-[0.95] tracking-tight mb-8">
+                        Menempa Karakter, <br/>Mengabdi pada <span class="italic font-normal">Nusa &amp; Bangsa.</span>
+</h1>
+<p class="text-on-surface-variant text-xl leading-relaxed max-w-xl font-body">
+                        UKM Gerakan Pramuka Racana Universitas Pancasakti Tegal merupakan wadah pengembangan diri mahasiswa melalui pendidikan kepramukaan yang berlandaskan Tri Satya dan Dasa Darma.
+                    </p>
+</div>
+<div class="md:col-span-5 relative">
+<div class="rounded-xl overflow-hidden shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-700 bg-surface-container">
+<img alt="Student activities" class="w-full aspect-[4/5] object-cover" data-alt="Group of students wearing brown scout uniforms engaged in a collaborative discussion at a wooden table in a sunlit university courtyard" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAoM7VIE8zqAFBRoMuIVoUeE-AOASn2UVdZxEJozCAKZwe9v2tEVE0my8ohTudlwi0WVeahyTj9U2H8LWgHZwDsLRFNhnJ2YTXAZd-I7-fXt2iJIsJQUnsIEL8Xp38kQOWTPBcXXdi5HJDNw2sMUV3zjL3aw-uY8fh-M6urpw9HVF96v0aW96sRCGBMV2kg1GGltqVEH-ytQZ-ZqE0Z1i5HB6JgU3EB5eLhEa9pPgP66Z402YE0DjGZPl3JO3o4vFFWWTiKPUdD5w"/>
+</div>
+<div class="absolute -bottom-10 -left-10 w-48 h-48 rounded-xl overflow-hidden shadow-xl -rotate-6 hidden md:block bg-surface-container-high">
+<img alt="Scout emblem" class="w-full h-full object-cover" data-alt="Close-up of a scout emblem on a brown uniform fabric with detailed textures and professional academic lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrfRr8MVM7blWP9o6OLIY9a6-JzVYA0OrxPFiWqLqRMGpLx5QCLOGhnU1NDWo3bGOT8MIjsIUyy93HIHKMuOP2xFAL_HHb1ljSUwfaijy2A3HBhlPLdkeoMJV_-KPw9VFCuxqbi5UVv4XSXTIKqwZ6qE1Uffm7v_cM0UGDNZt2PZcYAc40zhXwx1KeIyQ3I-3QwVZxY94sqYVLRjXvxgLuWh5X1XVBI7NerCbNtvr-661GRN79Skdx-sNaKvmmeJtQLBrJ8F5ONg"/>
+</div>
+</div>
+</div>
+</section>
+<!-- History Section (Asymmetric) -->
+<section class="bg-surface-container py-32 overflow-hidden">
+<div class="px-12 max-w-screen-2xl mx-auto">
+<div class="flex flex-col md:flex-row gap-20">
+<div class="md:w-1/3">
+<h2 class="text-4xl text-primary font-semibold mb-6">Sejarah Kami</h2>
+<p class="text-on-surface-variant leading-relaxed font-body">
+                            Berdiri di jantung Kota Tegal, Racana Universitas Pancasakti Tegal telah menjadi saksi bisu perkembangan generasi muda yang berdedikasi tinggi sejak dekade awal berdirinya universitas.
+                        </p>
+</div>
+<div class="md:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-12">
+<div class="space-y-6">
+<div class="text-secondary font-headline text-5xl">1980</div>
+<h3 class="text-xl font-bold text-primary">Awal Perjalanan</h3>
+<p class="text-on-surface-variant font-body leading-relaxed">
+                                Kelompok kecil mahasiswa yang memiliki semangat kepanduan mulai menginisiasi terbentuknya gugus depan di lingkungan kampus UPS.
+                            </p>
+</div>
+<div class="space-y-6">
+<div class="text-secondary font-headline text-5xl">2024</div>
+<h3 class="text-xl font-bold text-primary">Eksistensi Berkelanjutan</h3>
+<p class="text-on-surface-variant font-body leading-relaxed">
+                                Saat ini, kami menjadi salah satu UKM paling berpengaruh di universitas, mencetak pemimpin-pemimpin masa depan di berbagai bidang.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Vision & Mission (Editorial Layout) -->
+<section class="py-32 px-12 max-w-screen-2xl mx-auto">
+<div class="flex flex-col items-center mb-20 text-center">
+<span class="font-label text-secondary tracking-[0.2em] text-sm font-bold uppercase mb-4">Visi &amp; Misi</span>
+<h2 class="text-5xl text-primary font-semibold max-w-2xl leading-tight">Membangun Fondasi Karakter Melalui Pendidikan Kepanduan</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-px bg-outline-variant/20 rounded-xl overflow-hidden">
+<div class="bg-surface p-16 flex flex-col justify-center">
+<h3 class="text-3xl text-primary mb-8 italic">Visi</h3>
+<p class="text-2xl text-on-surface leading-relaxed font-headline">
+                        "Terwujudnya anggota Racana yang berintelektual tinggi, mandiri, dan berkarakter berdasarkan nilai-nilai Pancasila dan Dasa Darma Pramuka."
+                    </p>
+</div>
+<div class="bg-surface-container-low p-16">
+<h3 class="text-3xl text-primary mb-8 italic">Misi</h3>
+<ul class="space-y-8 font-body">
+<li class="flex gap-6">
+<span class="text-secondary font-headline text-2xl">01</span>
+<p class="text-on-surface-variant">Menyelenggarakan kegiatan kepramukaan yang adaptif terhadap perkembangan teknologi dan ilmu pengetahuan.</p>
+</li>
+<li class="flex gap-6">
+<span class="text-secondary font-headline text-2xl">02</span>
+<p class="text-on-surface-variant">Mempererat tali persaudaraan antar sesama anggota dan pengabdian nyata kepada masyarakat luas.</p>
+</li>
+<li class="flex gap-6">
+<span class="text-secondary font-headline text-2xl">03</span>
+<p class="text-on-surface-variant">Menanamkan jiwa kepemimpinan yang etis, disiplin, dan bertanggung jawab di lingkungan universitas.</p>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- Organizational Structure (Bento Grid) -->
+<section class="py-32 bg-stone-950 text-surface">
+<div class="px-12 max-w-screen-2xl mx-auto">
+<div class="mb-16 flex justify-between items-end">
+<div>
+<span class="font-label text-secondary-fixed tracking-[0.2em] text-sm font-bold uppercase mb-4 block">KEPENGURUSAN</span>
+<h2 class="text-5xl font-semibold">Struktur Organisasi</h2>
+</div>
+<button class="text-surface font-label border-b border-surface/30 pb-1 hover:border-secondary-fixed transition-colors">Lihat Seluruh Anggota</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+<!-- Leader -->
+<div class="md:col-span-2 md:row-span-2 bg-stone-900 rounded-xl overflow-hidden group">
+<div class="aspect-[16/10] overflow-hidden">
+<img alt="Leader" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Professional portrait of a young man in a scout uniform with a determined look, studio lighting, warm tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCWIJ0BHR0MpaWHqQ7tuRVjJaAPyVzwG8WJbvuPoLOCw-hm59AFL7L_kfGjYkXADZQHeV9N5_L2EK-NMDZ1c6kXrLigrWRmD2-4g5xttJK2xwKe06yb1YV565sKNxw-ABJLo5leeNCw_VaUK7QtwzX31hCM9c86XpZD-_zDIkFaH9P9giw20kIS5MxY85jUDuOR4mJTZXrel2tPPYC1rZ96vJ-KeOTIzG96nN-opcO-lQLgiApZj1mci8_k1PWk1j9HAPe1iuzeA"/>
+</div>
+<div class="p-10">
+<span class="text-secondary-fixed font-label text-xs tracking-widest block mb-2 uppercase">Ketua Racana Putra</span>
+<h4 class="text-2xl font-semibold mb-2">Kak Ahmad Syarifuddin</h4>
+<p class="text-surface-variant/70 text-sm leading-relaxed">Bertanggung jawab atas seluruh koordinasi internal dan eksternal Racana Putra dalam mencapai target organisasi tahunan.</p>
+</div>
+</div>
+<div class="md:col-span-2 bg-stone-900 rounded-xl overflow-hidden flex items-center p-8 group">
+<div class="w-32 h-32 rounded-full overflow-hidden flex-shrink-0">
+<img alt="Secretary" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Close up portrait of a young woman in scout uniform smiling warmly, soft afternoon sunlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOnsg4_a8pmX9u26elRUgHUmFCraEaIcL_hFPCqXsKo6lb1LOPBnbLospowczRCJS3tTH8aEiF1QSPpDGCb9UEetVARX4MFyJS8QCOYtucUjFrqp_3NrfoCgsPda2cGdsIkOc_DPN1kvtF8Xr-OQlfM25Q9_NRsW4yD2EEVt06nBgqjU5CVwL6dQq9d1eALL6MWEENjoye-rctiAEsbiXj3JUc4IWSy6T8-dzXzkq14gJ6BsPfcbH6Hq1cGWqaNqJpbXm_HZ62Hg"/>
+</div>
+<div class="ml-8">
+<span class="text-secondary-fixed font-label text-xs tracking-widest block mb-1 uppercase">Sekretaris Umum</span>
+<h4 class="text-xl font-semibold">Kak Sarah Maulina</h4>
+<p class="text-surface-variant/70 text-xs mt-2">Manajemen administrasi dan arsip digital organisasi.</p>
+</div>
+</div>
+<div class="bg-stone-900 rounded-xl p-8 flex flex-col justify-between group">
+<div>
+<span class="text-secondary-fixed font-label text-xs tracking-widest block mb-4 uppercase">Bendahara</span>
+<h4 class="text-xl font-semibold">Kak Dimas Wahyu</h4>
+</div>
+<div class="w-12 h-12 bg-stone-800 rounded-full flex items-center justify-center mt-6 group-hover:bg-secondary-fixed group-hover:text-stone-950 transition-colors">
+<span class="material-symbols-outlined">account_balance_wallet</span>
+</div>
+</div>
+<div class="bg-stone-900 rounded-xl p-8 flex flex-col justify-between group">
+<div>
+<span class="text-secondary-fixed font-label text-xs tracking-widest block mb-4 uppercase">Kegiatan</span>
+<h4 class="text-xl font-semibold">Kak Rizky Ananda</h4>
+</div>
+<div class="w-12 h-12 bg-stone-800 rounded-full flex items-center justify-center mt-6 group-hover:bg-secondary-fixed group-hover:text-stone-950 transition-colors">
+<span class="material-symbols-outlined">event_available</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Quote Section -->
+<section class="py-40 px-12 max-w-screen-xl mx-auto text-center">
+<blockquote class="text-4xl md:text-5xl font-headline text-primary italic leading-tight">
+                "Pramuka bukan sekadar seragam, melainkan karakter yang terukir dalam setiap langkah pengabdian."
+            </blockquote>
+<cite class="mt-12 block font-label text-on-surface-variant tracking-[0.2em] text-sm not-italic uppercase">— Lord Robert Baden-Powell</cite>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#f6ece6] dark:bg-stone-950 relative w-full py-20">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-12 max-w-screen-2xl mx-auto text-[#432a1e] dark:text-[#f6ece6] font-['Manrope'] text-sm leading-relaxed">
+<div class="space-y-6">
+<div class="font-['Newsreader'] font-bold text-xl text-[#432a1e] dark:text-[#f6ece6]">
+                    Gerakan Pramuka Racana UPS
+                </div>
+<p class="text-[#504440] dark:text-[#d4c3bd]">
+                    Membentuk pramuka yang tangguh, mandiri, dan berbudi pekerti luhur di Universitas Pancasakti Tegal.
+                </p>
+<div class="flex space-x-4">
+<div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center hover:bg-secondary transition-colors cursor-pointer group">
+<span class="material-symbols-outlined text-primary group-hover:text-white">public</span>
+</div>
+<div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center hover:bg-secondary transition-colors cursor-pointer group">
+<span class="material-symbols-outlined text-primary group-hover:text-white">mail</span>
+</div>
+</div>
+</div>
+<div class="space-y-6">
+<h5 class="font-bold text-primary dark:text-surface text-base uppercase tracking-widest">Tentang</h5>
+<ul class="space-y-4">
+<li><a class="text-[#504440] hover:text-[#855300] transition-colors" href="#">Visi Misi</a></li>
+<li><a class="text-[#504440] hover:text-[#855300] transition-colors" href="#">Struktur Organisasi</a></li>
+<li><a class="text-[#504440] hover:text-[#855300] transition-colors" href="#">Sejarah</a></li>
+</ul>
+</div>
+<div class="space-y-6">
+<h5 class="font-bold text-primary dark:text-surface text-base uppercase tracking-widest">Informasi</h5>
+<ul class="space-y-4">
+<li><a class="text-[#504440] hover:text-[#855300] transition-colors" href="#">Pusat Bantuan</a></li>
+<li><a class="text-[#504440] hover:text-[#855300] transition-colors" href="#">Kebijakan Privasi</a></li>
+<li><a class="text-[#504440] hover:text-[#855300] transition-colors" href="#">Persyaratan</a></li>
+</ul>
+</div>
+<div class="space-y-6">
+<h5 class="font-bold text-primary dark:text-surface text-base uppercase tracking-widest">Kontak</h5>
+<p class="text-[#504440] dark:text-[#d4c3bd]">
+                    Jl. Halmahera No.52, Mintaragen, Kec. Tegal Tim., Kota Tegal, Jawa Tengah 52121
+                </p>
+<p class="text-[#504440] dark:text-[#d4c3bd]">
+                    pramuka@upstegal.ac.id
+                </p>
+</div>
+</div>
+<div class="mt-20 pt-12 border-t border-primary/10 px-12 max-w-screen-2xl mx-auto text-center text-[#504440] dark:text-[#d4c3bd]/50">
+            © 2024 Racana Universitas Pancasakti Tegal. Curated for Excellence.
+        </div>
+</footer>
+</body></html>
